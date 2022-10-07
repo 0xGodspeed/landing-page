@@ -55,7 +55,7 @@ header {
     margin-top: 0;
 }
 
-#sign-up-button {
+.sign-up-button {
     color: white;
     background-color: #3882F6;
     border: 0;
@@ -65,11 +65,11 @@ header {
     font-size: 15px;
 }
 
-#sign-up-button:hover {
+.button:hover {
     background-color: #0050d0;
 }
 
-#sign-up-button:active {
+.button:active {
     background-color: #003ea1;
 }
 
@@ -136,4 +136,35 @@ header {
     font-size: 22px;
     margin-right: 43px;
     color: #393838;
+}
+
+.action-box {
+    display: flex;
+    margin: 80px auto;
+    width: 68%;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 80px;
+    box-sizing: border-box;
+}
+
+.action-text-big {
+    font-size: 21px;
+    font-weight: bold;
+}
+.action-text-small {
+    color: #eeeeee;
+}
+
+.section-4 button {
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 7px 30px;
+    font-weight: bold;
+    font-size: 15px;
 }

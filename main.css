@@ -1,5 +1,5 @@
 * {
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 }
 
 body {
@@ -70,4 +70,36 @@ header {
 
 #sign-up-button:active {
     background-color: #003ea1;
+}
+
+.info-heading {
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin: 34px auto;
+    color: #1f2937;
+}
+
+.pictures {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.pictures img {
+    border-radius: 10%;
+    border: 5px solid #3882F6;
+}
+
+.pictures div {
+    text-align: center;
+    width: 160px;
+}
+
+.pictures .subtext {
+    color: #444444;
+}
+
+.section-2 {
+    margin-bottom: 100px;
 }

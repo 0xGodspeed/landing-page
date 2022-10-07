@@ -1,0 +1,55 @@
+* {
+    font-family: Ubuntu;
+}
+
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1f2937;
+}
+
+.navbar {
+    /* border: 1px solid black; */
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    margin: auto 4px;
+}
+
+header {
+    margin: 0 14%;
+}
+
+#header-logo {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-content {
+    margin-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 200px;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0px auto;
+}
+
+#header-subtext {
+    margin-top: 0;
+}

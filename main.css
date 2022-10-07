@@ -168,3 +168,10 @@ header {
     font-weight: bold;
     font-size: 15px;
 }
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
